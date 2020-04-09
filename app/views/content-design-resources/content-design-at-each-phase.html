@@ -1,0 +1,111 @@
+{% extends "layout.html" %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <h1 class="govuk-heading-xl">
+      Content Design at each project phase
+    </h1>
+    <p>These are some of the things a Content Designer can be doing at each agile project phase.</p>
+
+
+    <div class="govuk-tabs" data-module="govuk-tabs">
+      <h2 class="govuk-tabs__title">
+        Contents
+      </h2>
+      <ul class="govuk-tabs__list">
+        <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+          <a class="govuk-tabs__tab" href="#past-day">
+            Discovery
+          </a>
+        </li>
+        <li class="govuk-tabs__list-item">
+          <a class="govuk-tabs__tab" href="#past-week">
+            Alpha
+          </a>
+        </li>
+        <li class="govuk-tabs__list-item">
+          <a class="govuk-tabs__tab" href="#past-month">
+            Beta
+          </a>
+        </li>
+        <li class="govuk-tabs__list-item">
+          <a class="govuk-tabs__tab" href="#past-year">
+            Live
+          </a>
+        </li>
+      </ul>
+      <div class="govuk-tabs__panel" id="past-day">
+        <h2 class="govuk-heading-l">Discovery</h2>
+        <p class="govuk-body"><p>Learn about your users, your subject and existing content.</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Finding the words people use (Google Analytics, Adwords and Trends, online forums, social media).</li>
+            <li>Attending user research (listen to phone calls, meet users, observe how they interact with current services).</li>
+            <li>Finding gaps or problems with existing content (<a href="https://support.publishing.service.gov.uk/anonymous_feedback/explore" target="_blank">GOV.UK Feedex</a> and other existing feedback).</li>
+            <li>Building your knowledge of the subject and understand the policy intent (work with stakeholders, policy and subject matter experts).</li>
+            <li>Helping your team define their focus (write problem statements, mission statements and service descriptions).</li>
+          </ul>
+
+      </div>
+
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+        <h2 class="govuk-heading-l">Alpha</h2>
+        <p class="govuk-body">Build prototypes, design and iterate content.</p>
+        <ul class="govuk-list govuk-list--bullet">
+          <li>Creating or updating prototypes (using GOV.UK prototype kit, Heroku and Git).</li>
+          <li>Writing and testing letters, text messages, emails and other notifications.</li>
+          <li>Following GOV.UK and DWP design patterns and styles (share new patterns and research with other designers in DWP and across government).</li>
+          <li>Designing GOV.UK start and done pages and testing with users.</li>
+          <li>Testing GOV.UK content with users to cover the whole journey.</li>
+          <li>Working with legal and security to understand constraints on content.</li>
+          <li>Sharing content and research for GOV.UK start, done and guidance pages with the GDS content team.</li>
+          <li>Helping business analysts and product owners to write clear user stories.</li>
+        </ul>
+      </div>
+
+
+
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-month">
+        <h2 class="govuk-heading-l">Beta</h2>
+        <p class="govuk-body"><p>Design the content for your first release.</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Designing error and validation messages.</li>
+            <li>Showing when the online service is unavailable.</li>
+            <li>Explaining how the service uses cookies and collects personal data.</li>
+            <li>Writing feedback questions to help the team learn about the user’s experience.</li>
+            <li>Translating content into Welsh (the Welsh language team can give you this).</li>
+            <li>Working with GDS content team on GOV.UK start, done and guidance pages (for launch of public beta).</li>
+            <li>Writing metadata descriptions and keywords to help users find the right service and improve search engine rankings.</li>
+            <li>Iterating content based on feedback from users, design hypotheses and analytics.</li>
+            <li>Helping your team to name the service.</li>
+          </ul>
+
+      </div>
+      <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-year">
+        <h2 class="govuk-heading-l">Live</h2>
+        <p class="govuk-body"><p>Continue to iterate the service content.</p>
+          <ul class="govuk-list govuk-list--bullet">
+            <li>Using feedback and analytics to inform changes or discover new user needs to explore.</li>
+          </ul>
+
+      </div>
+    </div>
+
+
+
+<div class="govuk-grid-row">
+
+
+</div>
+<div class="govuk-grid-row">
+
+</div>
+
+    </div>
+</div>
+
+{% endblock %}
